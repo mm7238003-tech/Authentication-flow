@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="w-93 h-5.5 flex justify-between ">
         <div className="flex " >
           <img src="/book-bookmark 1.png" alt="book-bookmark 1.png"  />
-          <p className=" text-[18px]  text-white ml-2.5 mr-10"> Bookshop</p>
+          <p className=" text-[18px]  text-white ml-2.5 mr-10 "> Bookshop</p>
 </div>
-<Link to="" className=" text-[16px] text-white decoration-solid">Home </Link>
+<Link to="/" className=" text-[16px] text-white decoration-solid hover:text-amber-300! ">Home </Link>
   <Link to="" className=" text-[16px] text-white decoration-solid"> Books</Link>
     <Link to="" className=" text-[16px] text-white decoration-solid"> About us</Link>
 

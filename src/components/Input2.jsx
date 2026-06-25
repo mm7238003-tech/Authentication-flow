@@ -49,7 +49,7 @@ Sign up
 
 <div className='flex justify-center mt-5' >
 <span span  className='text-[#222222] text-[16px]  font-normal' >Already have an account?</span>
-<Link to="/">
+<Link to="/Login">
 <span className='text-[#D9176C] text-[16px]  font-semibold  mb-10'>Log in</span>
 </Link>
 </div>

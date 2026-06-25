@@ -1,5 +1,6 @@
 import AddCode from "./pages/AddCode.jsx";
 import ForgetPassword from "./pages/ForgetPassword.jsx";
+import HomePage from "./pages/HomePage.jsx";
 import Login from "./pages/Login.jsx";
 import ResetPassword from "./pages/ResetPassword.jsx";
 import Sign from "./pages/SignUp.jsx";
@@ -12,7 +13,8 @@ export default function App() {
     <>
 <BrowserRouter>
 <Routes>
-    <Route path="/" element={<Login/>}/>   
+  <Route path="/" element={<HomePage/>}/>
+    <Route path="Login" element={<Login/>}/>   
   <Route path="SignUp" element={<Sign/>}/>
     <Route path="ForgetPassword" element={<ForgetPassword/>}/>           
   <Route path="AddCode" element={<AddCode/>}/>             
